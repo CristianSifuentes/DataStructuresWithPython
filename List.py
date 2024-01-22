@@ -1,3 +1,7 @@
+'''
+¡Claro! Vamos a explorar un ejemplo más avanzado utilizando listas en Python. En este caso, crearemos un programa que realiza manipulación avanzada de datos utilizando comprensiones de listas, funciones lambda, y funciones de orden superior. Imaginemos que tenemos una lista de números y queremos realizar una serie de operaciones en ella.
+'''
+
 # Generamos una lista de números
 numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
@@ -23,3 +27,15 @@ print("Cuadrados:", cuadrados)
 print("Números pares:", numeros_pares)
 print("Raíces cuadradas:", raices_cuadradas)
 print("Cubos:", cubos)
+
+
+
+'''
+En este ejemplo:
+
+Hacemos uso de comprensiones de listas para generar nuevas listas de manera concisa.
+Utilizamos funciones lambda con map para aplicar una operación a cada elemento de la lista.
+Definimos una función de orden superior llamada operacion_personalizada que toma una función como argumento y aplica esa función a cada elemento de la lista.
+Este ejemplo demuestra algunos conceptos más avanzados de manipulación de listas en Python. La idea es mostrar cómo se pueden utilizar estas características para realizar operaciones más complejas y expresivas en los datos de una lista.
+
+'''
