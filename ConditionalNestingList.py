@@ -27,10 +27,16 @@ productos_en_existencia = [
     if producto[3] == True 
 ]
 
+producto_mueble = [
+    producto
+    for producto in productos_precios
+    if producto[4] == 'C' 
+]
 
 # Imprimimos los resultados
 print("Productos con descuento:", productos_con_descuento)
 print("Productos en existencia:", productos_en_existencia)
+print("Productos muebles:", producto_mueble)
 
 
 '''
