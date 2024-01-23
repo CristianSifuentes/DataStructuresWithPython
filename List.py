@@ -2,6 +2,11 @@
 ¡Claro! Vamos a explorar un ejemplo más avanzado utilizando listas en Python. En este caso, crearemos un programa que realiza manipulación avanzada de datos utilizando comprensiones de listas, funciones lambda, y funciones de orden superior. Imaginemos que tenemos una lista de números y queremos realizar una serie de operaciones en ella.
 '''
 
+'''
+Listas (list)
+
+'''
+
 # Generamos una lista de números
 numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
