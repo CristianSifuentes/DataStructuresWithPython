@@ -4,7 +4,7 @@ estudiantes = [
     ("Bob", {"Matemáticas": 88, "Historia": 92, "Inglés": 78}),
     ("Charlie", {"Matemáticas": 95, "Historia": 75, "Inglés": 88}),
     ("David", {"Matemáticas": 82, "Historia": 90, "Inglés": 85}),
-    ("Eve", {"Matemáticas": 96, "Historia": 84, "Inglés": 92})
+    ("Eve", {"Matemáticas": 96, "Historia": 94, "Inglés": 92})
 ]
 
 # Seleccionamos a los estudiantes que tienen un promedio superior a 90 en todas las asignaturas
