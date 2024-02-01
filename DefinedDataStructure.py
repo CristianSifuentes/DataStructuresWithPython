@@ -1,3 +1,7 @@
+'''
+Claro, creemos un ejemplo avanzado de una estructura de datos definida por el usuario. Vamos a implementar una clase llamada RegistroClientes que representa un registro de clientes para una tienda en línea. La clase incluirá métodos para agregar clientes, buscar clientes y realizar operaciones avanzadas.
+'''
+
 class Cliente:
     def __init__(self, id_cliente, nombre, correo, puntos_fidelidad=0):
         self.id_cliente = id_cliente
@@ -54,3 +58,21 @@ clientes_con_puntos_altos = registro_clientes.obtener_clientes_con_puntos_altos(
 print("\nClientes con puntos de fidelidad altos:")
 for cliente in clientes_con_puntos_altos:
     print(cliente)
+
+'''
+En este ejemplo:
+
+La clase Cliente es una estructura de datos definida por el usuario que representa a un cliente con atributos como id_cliente, nombre, correo y puntos_fidelidad.
+La clase RegistroClientes es otra estructura de datos definida por el usuario que actúa como un registro para almacenar y gestionar clientes. Contiene métodos para agregar clientes, buscar clientes, actualizar puntos de fidelidad y obtener clientes con puntos de fidelidad altos.
+Utilizamos estas clases para crear un registro de clientes, agregar clientes, buscar clientes por ID, actualizar puntos de fidelidad y obtener clientes con puntos de fidelidad altos.
+Ventajas de las Estructuras de Datos Definidas por el Usuario:
+
+Abstracción: Permite modelar conceptos específicos del dominio de manera más clara y abstracta.
+Reutilización de Código: Permite encapsular la lógica relacionada en un solo lugar para facilitar la reutilización.
+Mantenimiento Sencillo: Facilita el mantenimiento del código al organizar la lógica en clases y métodos.
+Desventajas:
+
+Mayor Complejidad: Puede introducir una mayor complejidad, especialmente para problemas simples.
+Posible Sobrecarga: Para problemas pequeños o simples, la creación de estructuras de datos personalizadas puede ser excesiva.
+En general, las estructuras de datos definidas por el usuario son fundamentales para organizar y gestionar la información de manera eficiente, especialmente en problemas más complejos o proyectos a gran escala.
+'''
