@@ -1,3 +1,8 @@
+'''
+
+¡Por supuesto! Creemos un ejemplo donde combinemos tanto las estructuras de datos integradas como las definidas por el usuario para simular un sistema de gestión de inventario para una tienda en línea. Utilizaremos una variedad de estructuras de datos para representar productos, clientes, pedidos y el inventario de la tienda.
+'''
+
 from collections import deque
 import queue
 
@@ -87,3 +92,14 @@ while not cola_pedidos.empty():
 print("Inventario actualizado:")
 for producto in inventario_productos.values():
     print(producto)
+
+
+'''
+En este ejemplo:
+
+Creamos clases para representar productos, clientes y pedidos como estructuras de datos definidas por el usuario.
+Utilizamos queue.Queue para manejar los pedidos en una cola.
+Utilizamos un diccionario para almacenar el registro de clientes y el inventario de productos.
+Creamos algunos productos, clientes y pedidos, y los procesamos simulando el sistema de gestión de inventario de una tienda en línea.
+Este ejemplo demuestra cómo combinar eficientemente tanto las estructuras de datos integradas como las definidas por el usuario para crear un sistema funcional que puede ser útil en un entorno de desarrollo del mundo real.
+'''
