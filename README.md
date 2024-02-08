@@ -61,5 +61,8 @@ Sets
 Sets are a collection of unordered elements that are unique. Meaning that even if the data is repeated more than one time, it would be entered into the set only once. It resembles the sets that you have learnt in arithmetic. The operations also are the same as is with the arithmetic sets. An example program would help you understand better.
 
 
+https://www.udemy.com/course/estructuras-de-datos-y-algoritmos-en-python/?utm_source=adwords&utm_medium=udemyads&utm_campaign=LongTail_la.ES_cc.MX&utm_term=_._ag_124493948347_._ad_517970074733_._kw__._de_c_._dm__._pl__._ti_aud-2268488108799%3Adsa-1190286617479_._li_9143262_._pd__._&matchtype=&gad_source=1&gclid=CjwKCAiAlJKuBhAdEiwAnZb7lWj8C-nrVHODk2XOF4QqE-dsujhfix_oSy9K3ndK0Wxv5sUUjqAagxoC8CIQAvD_BwE
+
+
 
 

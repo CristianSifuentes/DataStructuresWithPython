@@ -1,3 +1,9 @@
+'''
+Claro, vamos a crear un ejemplo avanzado que implemente listas enlazadas, doblemente enlazadas y circulares en Python. Estas estructuras de datos son útiles para almacenar y manipular datos de manera eficiente, especialmente cuando el tamaño de la lista es grande o las operaciones de inserción y eliminación son frecuentes.
+
+Primero, vamos a definir las clases para cada tipo de lista enlazada:
+'''
+
 class Nodo:
     def __init__(self, valor):
         self.valor = valor
@@ -80,3 +86,39 @@ class ListaCircular(ListaEnlazada):
         super().eliminar(valor)
         self.ultimo_nodo.siguiente = self.primer_nodo
         self.primer_nodo.anterior = self.ultimo_nodo
+
+
+'''
+Ahora, podemos crear instancias de cada tipo de lista, insertar, actualizar y eliminar datos, y mostrar el contenido de las listas:
+'''
+
+# Lista enlazada
+print("Lista enlazada:")
+lista_enlazada = ListaEnlazada()
+lista_enlazada.insertar_al_principio(1)
+lista_enlazada.insertar_al_principio(2)
+lista_enlazada.insertar_al_final(3)
+lista_enlazada.insertar_al_final(4)
+print(lista_enlazada)
+
+# Lista doblemente enlazada
+print("\nLista doblemente enlazada:")
+lista_doble_enlazada = ListaDobleEnlazada()
+lista_doble_enlazada.insertar_al_principio(1)
+lista_doble_enlazada.insertar_al_principio(2)
+lista_doble_enlazada.insertar_al_final(3)
+lista_doble_enlazada.insertar_al_final(4)
+print(lista_doble_enlazada)
+
+# Lista circular
+print("\nLista circular:")
+lista_circular = ListaCircular()
+lista_circular.insertar_al_principio(1)
+lista_circular.insertar_al_principio(2)
+lista_circular.insertar_al_final(3)
+lista_circular.insertar_al_final(4)
+print(lista_circular)
+
+# Eliminar un elemento de la lista doblemente enlazada
+lista_doble_enlazada.eliminar(3)
+print("\nLista doblemente")
