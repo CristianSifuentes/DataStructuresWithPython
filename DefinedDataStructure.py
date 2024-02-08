@@ -74,5 +74,5 @@ Desventajas:
 
 Mayor Complejidad: Puede introducir una mayor complejidad, especialmente para problemas simples.
 Posible Sobrecarga: Para problemas pequeños o simples, la creación de estructuras de datos personalizadas puede ser excesiva.
-En general, las estructuras de datos definidas por el usuario son fundamentales para organizar y gestionar la información de manera eficiente, especialmente en problemas más complejos o proyectos a gran escala.
+En general, las estructuras de datos definidas por el usuario son fundamentales para organizar y gestionar la información de manera eficiente, especialmente en problemas más complejos o proyectos a gran escala.code 
 '''
