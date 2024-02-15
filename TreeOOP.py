@@ -1,3 +1,7 @@
+'''
+Por supuesto, aquí tienes un ejemplo avanzado que combina la programación orientada a objetos con el concepto de árboles. Vamos a implementar un árbol binario de búsqueda que permita agregar, buscar y eliminar nodos.
+'''
+
 class NodoArbol:
     def __init__(self, valor):
         self.valor = valor
@@ -80,3 +84,15 @@ arbol.insertar(18)
 print(arbol.buscar(7))  # True
 arbol.eliminar(15)
 print(arbol.buscar(15))  # False
+
+'''
+Características y ventajas:
+
+Eficiencia en operaciones: Búsqueda, inserción y eliminación tienen complejidad de tiempo O(log n) en promedio.
+Ordenamiento automático: Los árboles binarios de búsqueda mantienen sus elementos ordenados automáticamente.
+Estructura jerárquica: La representación jerárquica de los datos es útil para una variedad de aplicaciones.
+Desventajas:
+
+Requiere balanceo: Si el árbol no está balanceado, las operaciones pueden volverse ineficientes.
+Este ejemplo muestra cómo la programación orientada a objetos se puede utilizar para implementar una estructura de datos como un árbol binario de búsqueda. Al comprender y utilizar árboles de manera efectiva, puedes mejorar tu capacidad para manejar y organizar datos en tus proyectos.
+'''
